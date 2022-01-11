@@ -6,7 +6,7 @@
     "build": "next build",
     "start": "next start -p 4200",
     "lint": "next lint",
-    "pm2":"pm2 start --watch --name 'task-app-backend' npm -- run start"
+    "pm2":"pm2 start --watch --name 'notes-app' npm -- run start"
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
